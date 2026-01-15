@@ -1,0 +1,44 @@
+.title-page {
+    display: gird;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+}
+
+.header {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.profile {
+    border-radius: 50%; 
+    float:left; 
+    border: groove black 10px;
+}
+
+.bg {
+    margin-top: 1rem;
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px
+}
+
+.list1 {
+
+    margin-left: 5%;
+    text-align: center;
+}
+
+.list2 {
+
+    margin-right: 5%;
+    text-align: center;
+}
